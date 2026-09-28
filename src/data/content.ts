@@ -1953,7 +1953,7 @@ export const githubRepos: PortfolioRepo[] = [
     name: "himalayan-koh",
     desc: "Natural Himalayan pink salt and mineral brand storefront with B2B wholesale container export pipeline.",
     url: "https://github.com/8002salman-ai/himalayan-koh",
-    homepage: "https://himalayan-koh.vercel.app",
+    homepage: "https://preview.himalayankoh.com",
     language: "TypeScript",
     category: "new",
     status: "Live Store",

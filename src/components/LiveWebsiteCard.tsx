@@ -67,8 +67,8 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
   {
     id: "himalayan-koh",
     name: "Himalayan Koh",
-    embedUrl: "https://himalayan-koh.vercel.app",
-    displayUrl: "https://himalayan-koh.vercel.app",
+    embedUrl: "https://preview.himalayankoh.com",
+    displayUrl: "https://preview.himalayankoh.com",
     badge: "Brand Store",
     title: "Himalayan Koh — Natural Salt & Minerals",
     tagline: "Natural wellness brand storefront with global sourcing & logistics integration",

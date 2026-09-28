@@ -490,7 +490,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     tools: ["React", "TypeScript", "Tailwind CSS", "Vercel", "Google Workspace"],
     outcomes: [
-      "Live web presence running at himalayan-koh.vercel.app",
+      "Live web presence running at preview.himalayankoh.com",
       "Direct international trade inquiries received from verified agricultural buyers",
       "Standardized 20ft & 40ft container loading sheets and quality certs",
     ],
@@ -501,7 +501,7 @@ export const caseStudies: CaseStudy[] = [
         type: "Live website",
         label: "Himalayan Koh Official Live Site",
         status: "Verified",
-        url: "https://himalayan-koh.vercel.app",
+        url: "https://preview.himalayankoh.com",
       },
       {
         type: "GitHub repository",
@@ -521,7 +521,7 @@ export const caseStudies: CaseStudy[] = [
     related: ["luxedge", "basco-sports", "multi-marketplace-operations"],
     accent: "gold",
     icon: "store",
-    liveUrl: "https://himalayan-koh.vercel.app",
+    liveUrl: "https://preview.himalayankoh.com",
     githubUrl: "https://github.com/8002salman-ai/himalayan-koh",
     image: "/images/astra/yt-salt-licks.jpg",
     tag: "Export & Operations",
