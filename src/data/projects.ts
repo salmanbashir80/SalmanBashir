@@ -503,12 +503,6 @@ export const caseStudies: CaseStudy[] = [
         status: "Verified",
         url: "https://preview.himalayankoh.com",
       },
-      {
-        type: "GitHub repository",
-        label: "salmanbashir80/himalayan-koh",
-        status: "Verified",
-        url: "https://github.com/salmanbashir80/himalayan-koh",
-      },
     ],
     media: [
       {
@@ -522,7 +516,6 @@ export const caseStudies: CaseStudy[] = [
     accent: "gold",
     icon: "store",
     liveUrl: "https://preview.himalayankoh.com",
-    githubUrl: "https://github.com/salmanbashir80/himalayan-koh",
     image: "/images/astra/yt-salt-licks.jpg",
     tag: "Export & Operations",
     metrics: [

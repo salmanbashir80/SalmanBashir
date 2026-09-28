@@ -15,7 +15,7 @@ export interface ShowcaseSite {
   badge: string;
   title: string;
   tagline: string;
-  github: string;
+  github?: string;
   category: string;
 }
 
@@ -72,7 +72,6 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Brand Store",
     title: "Himalayan Koh — Natural Salt & Minerals",
     tagline: "Natural wellness brand storefront with global sourcing & logistics integration",
-    github: "https://github.com/salmanbashir80/himalayan-koh",
     category: "Wellness",
   },
   {
@@ -501,16 +500,18 @@ export function LiveWebsiteCard({ className }: LiveWebsiteCardProps) {
           </div>
 
           <div className="flex items-center gap-2.5 shrink-0">
-            <a
-              href={currentSite.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-[11px] font-medium text-zinc-400 hover:text-white transition-colors"
-            >
-              <Icon name="github" className="h-3 w-3" />
-              <span>Code</span>
-            </a>
-            <span className="text-zinc-600">·</span>
+            {currentSite.github && (
+              <a
+                href={currentSite.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[11px] font-medium text-zinc-400 hover:text-white transition-colors"
+              >
+                <Icon name="github" className="h-3 w-3" />
+                <span>Code</span>
+              </a>
+            )}
+            {currentSite.github && <span className="text-zinc-600">·</span>}
             <a
               href={currentSite.displayUrl}
               target="_blank"

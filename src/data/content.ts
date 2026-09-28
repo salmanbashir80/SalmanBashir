@@ -1950,15 +1950,6 @@ export const githubRepos: PortfolioRepo[] = [
     status: "Live Store",
   },
   {
-    name: "himalayan-koh",
-    desc: "Natural Himalayan pink salt and mineral brand storefront with B2B wholesale container export pipeline.",
-    url: "https://github.com/salmanbashir80/himalayan-koh",
-    homepage: "https://preview.himalayankoh.com",
-    language: "TypeScript",
-    category: "new",
-    status: "Live Store",
-  },
-  {
     name: "hot-grill-website",
     desc: "Contemporary restaurant and dining portal with interactive digital menus, chef specials, and online reservations.",
     url: "https://github.com/salmanbashir80/hot-grill-website",

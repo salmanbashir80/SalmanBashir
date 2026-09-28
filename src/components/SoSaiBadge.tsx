@@ -240,7 +240,6 @@ export function SoSaiBadge({ className }: SoSaiBadgeProps) {
                         { name: "luxedge-website", desc: "Modern catalog e-commerce PWA storefront", language: "TypeScript", stars: 12, url: "https://github.com/salmanbashir80/luxedge-website" },
                         { name: "8002-erp", desc: "Enterprise resource planning & multi-warehouse system", language: "TypeScript", stars: 14, url: "https://github.com/salmanbashir80/8002-erp" },
                         { name: "Basco-sports", desc: "Activewear brand showcase with checkout pipeline", language: "JavaScript", stars: 8, url: "https://github.com/salmanbashir80/Basco-sports" },
-                        { name: "himalayan-koh", desc: "Natural salt & mineral products e-commerce store", language: "TypeScript", stars: 7, url: "https://github.com/salmanbashir80/himalayan-koh" },
                         { name: "hot-grill-website", desc: "Restaurant & hospitality digital experience portal", language: "TypeScript", stars: 6, url: "https://github.com/salmanbashir80/hot-grill-website" },
                       ]
                   ).map((repo, idx) => {
