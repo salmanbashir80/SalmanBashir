@@ -22,7 +22,7 @@ export function LiveSystemsShowcase() {
 
           <Reveal delay={60}>
             <a
-              href="https://github.com/8002salman-ai"
+              href="https://github.com/salmanbashir80"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-cyan-300 hover:text-white transition-colors"

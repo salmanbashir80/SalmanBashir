@@ -28,7 +28,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Live Store",
     title: "LuxEdge — Curated Pet & Animal Essentials",
     tagline: "Live e-commerce brand engineered with modern catalog architecture, PWA & checkout",
-    github: "https://github.com/8002salman-ai/luxedge-website",
+    github: "https://github.com/salmanbashir80/luxedge-website",
     category: "E-Commerce",
   },
   {
@@ -39,7 +39,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "AI Agent",
     title: "YouTube Automation & Video AI Pipeline",
     tagline: "Autonomous content generation, voice synthesis & publishing pipeline",
-    github: "https://github.com/8002salman-ai/youtube-automation",
+    github: "https://github.com/salmanbashir80/youtube-automation",
     category: "AI Agent",
   },
   {
@@ -50,7 +50,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Enterprise",
     title: "8002 ERP — Enterprise Resource Planning",
     tagline: "Full-scale multi-warehouse inventory, procurement & financial operations system",
-    github: "https://github.com/8002salman-ai/8002-erp",
+    github: "https://github.com/salmanbashir80/8002-erp",
     category: "Operations",
   },
   {
@@ -61,7 +61,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Brand Store",
     title: "Basco Sports — Performance Athletics",
     tagline: "Activewear brand showcase with responsive catalog and checkout pipeline",
-    github: "https://github.com/8002salman-ai/Basco-sports",
+    github: "https://github.com/salmanbashir80/Basco-sports",
     category: "E-Commerce",
   },
   {
@@ -72,7 +72,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Brand Store",
     title: "Himalayan Koh — Natural Salt & Minerals",
     tagline: "Natural wellness brand storefront with global sourcing & logistics integration",
-    github: "https://github.com/8002salman-ai/himalayan-koh",
+    github: "https://github.com/salmanbashir80/himalayan-koh",
     category: "Wellness",
   },
   {
@@ -83,7 +83,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Hospitality",
     title: "Hot Grill — Restaurant & Dining",
     tagline: "Modern dining menu, online reservations & brand storytelling experience",
-    github: "https://github.com/8002salman-ai/hot-grill-website",
+    github: "https://github.com/salmanbashir80/hot-grill-website",
     category: "Hospitality",
   },
   {
@@ -94,7 +94,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Consulting",
     title: "Watpro Consultants — Industrial Engineering",
     tagline: "Professional engineering consultancy, compliance & project management portal",
-    github: "https://github.com/8002salman-ai/watpro-consultants",
+    github: "https://github.com/salmanbashir80/watpro-consultants",
     category: "Consulting",
   },
   {
@@ -105,7 +105,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "AI Vision",
     title: "SpotAware Platform — Real-Time Monitoring",
     tagline: "AI-driven spatial awareness, anomaly detection & operational visibility hub",
-    github: "https://github.com/8002salman-ai/spotaware-platform",
+    github: "https://github.com/salmanbashir80/spotaware-platform",
     category: "AI Platform",
   },
   {
@@ -116,7 +116,7 @@ export const SHOWCASE_SITES: ShowcaseSite[] = [
     badge: "Legal Tech",
     title: "I-864 Affidavit of Support Calculator",
     tagline: "Automated poverty guidelines calculation & legal compliance tool",
-    github: "https://github.com/8002salman-ai/i-864-affidavit-support-calculator",
+    github: "https://github.com/salmanbashir80/i-864-affidavit-support-calculator",
     category: "Calculator",
   },
 ];

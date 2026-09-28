@@ -32,7 +32,7 @@ export function HomePage() {
           },
           sameAs: [
             "https://www.youtube.com/@TheAIWithSalman",
-            "https://github.com/8002salman-ai",
+            "https://github.com/salmanbashir80",
             "https://www.linkedin.com/in/salmanbashir80",
           ],
           makesOffer: [

@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 
-const GITHUB_USER = "8002salman-ai";
+const GITHUB_USER = "salmanbashir80";
 
 interface EnrichedRepo {
   name: string;

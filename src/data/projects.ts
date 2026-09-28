@@ -184,9 +184,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/8002-erp",
+        label: "salmanbashir80/8002-erp",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/8002-erp",
+        url: "https://github.com/salmanbashir80/8002-erp",
       },
       {
         type: "Deployment",
@@ -214,7 +214,7 @@ export const caseStudies: CaseStudy[] = [
     icon: "layers",
     featured: true,
     liveUrl: "https://8002-erp.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/8002-erp",
+    githubUrl: "https://github.com/salmanbashir80/8002-erp",
     image: "/images/astra/project-embani-erp.jpg",
     tag: "ERP & Operations",
     metrics: [
@@ -284,9 +284,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/luxedge-website",
+        label: "salmanbashir80/luxedge-website",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/luxedge-website",
+        url: "https://github.com/salmanbashir80/luxedge-website",
       },
     ],
     media: [
@@ -301,7 +301,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "brand",
     icon: "store",
     liveUrl: "https://luxedge.us",
-    githubUrl: "https://github.com/8002salman-ai/luxedge-website",
+    githubUrl: "https://github.com/salmanbashir80/luxedge-website",
     image: "/images/astra/project-luxedge.jpg",
     tag: "E-Commerce",
     metrics: [
@@ -363,9 +363,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/youtube-automation",
+        label: "salmanbashir80/youtube-automation",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/youtube-automation",
+        url: "https://github.com/salmanbashir80/youtube-automation",
       },
     ],
     media: [
@@ -380,7 +380,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "brand",
     icon: "cpu",
     liveUrl: "https://youtube-automation-azure.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/youtube-automation",
+    githubUrl: "https://github.com/salmanbashir80/youtube-automation",
     image: "/images/astra/yt-ai-automation.jpg",
     tag: "AI & Automation",
     metrics: [
@@ -429,9 +429,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/Basco-sports",
+        label: "salmanbashir80/Basco-sports",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/Basco-sports",
+        url: "https://github.com/salmanbashir80/Basco-sports",
       },
     ],
     media: [
@@ -445,7 +445,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "gold",
     icon: "store",
     liveUrl: "https://basco-sports.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/Basco-sports",
+    githubUrl: "https://github.com/salmanbashir80/Basco-sports",
     tag: "E-Commerce",
     metrics: [
       { label: "Category", value: "Athletic Wear" },
@@ -505,9 +505,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/himalayan-koh",
+        label: "salmanbashir80/himalayan-koh",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/himalayan-koh",
+        url: "https://github.com/salmanbashir80/himalayan-koh",
       },
     ],
     media: [
@@ -522,7 +522,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "gold",
     icon: "store",
     liveUrl: "https://preview.himalayankoh.com",
-    githubUrl: "https://github.com/8002salman-ai/himalayan-koh",
+    githubUrl: "https://github.com/salmanbashir80/himalayan-koh",
     image: "/images/astra/yt-salt-licks.jpg",
     tag: "Export & Operations",
     metrics: [
@@ -571,9 +571,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/hot-grill-website",
+        label: "salmanbashir80/hot-grill-website",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/hot-grill-website",
+        url: "https://github.com/salmanbashir80/hot-grill-website",
       },
     ],
     media: [
@@ -587,7 +587,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "gold",
     icon: "store",
     liveUrl: "https://hot-grill-website.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/hot-grill-website",
+    githubUrl: "https://github.com/salmanbashir80/hot-grill-website",
     tag: "Web Applications",
     metrics: [
       { label: "Industry", value: "Hospitality" },
@@ -634,9 +634,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/watpro-consultants",
+        label: "salmanbashir80/watpro-consultants",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/watpro-consultants",
+        url: "https://github.com/salmanbashir80/watpro-consultants",
       },
     ],
     media: [
@@ -650,7 +650,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "brand",
     icon: "briefcase",
     liveUrl: "https://watpro-consultants.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/watpro-consultants",
+    githubUrl: "https://github.com/salmanbashir80/watpro-consultants",
     tag: "Consulting & Web",
     metrics: [
       { label: "Vertical", value: "Industrial Engineering" },
@@ -703,9 +703,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/spotaware-platform",
+        label: "salmanbashir80/spotaware-platform",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/spotaware-platform",
+        url: "https://github.com/salmanbashir80/spotaware-platform",
       },
     ],
     media: [
@@ -719,7 +719,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "brand",
     icon: "cpu",
     liveUrl: "https://spotaware-platform.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/spotaware-platform",
+    githubUrl: "https://github.com/salmanbashir80/spotaware-platform",
     tag: "AI & Operations",
     metrics: [
       { label: "Focus", value: "Real-Time Telemetry" },
@@ -767,9 +767,9 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         type: "GitHub repository",
-        label: "8002salman-ai/i-864-affidavit-support-calculator",
+        label: "salmanbashir80/i-864-affidavit-support-calculator",
         status: "Verified",
-        url: "https://github.com/8002salman-ai/i-864-affidavit-support-calculator",
+        url: "https://github.com/salmanbashir80/i-864-affidavit-support-calculator",
       },
     ],
     media: [
@@ -783,7 +783,7 @@ export const caseStudies: CaseStudy[] = [
     accent: "brand",
     icon: "layers",
     liveUrl: "https://i-864-affidavit-support-calculator.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/i-864-affidavit-support-calculator",
+    githubUrl: "https://github.com/salmanbashir80/i-864-affidavit-support-calculator",
     tag: "Tools & Systems",
     metrics: [
       { label: "Compliance", value: "US HHS Guidelines" },

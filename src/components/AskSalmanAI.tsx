@@ -63,7 +63,7 @@ function getHumanPortfolioResponse(question: string): string {
 
   // 10. Contact Details / Socials
   if (/(contact|email|phone|whatsapp|linkedin|github|reach|address|location)/i.test(q)) {
-    return "Here is how you can connect directly with Salman:\n\n• **Email**: basco.pk@gmail.com\n• **Contact Form**: /contact\n• **Schedule a Meeting**: /book\n• **GitHub**: github.com/8002salman-ai\n• **LinkedIn**: linkedin.com/in/salman-bashir\n• **Location**: Pakistan (working with clients across the UK, USA, and globally).";
+    return "Here is how you can connect directly with Salman:\n\n• **Email**: basco.pk@gmail.com\n• **Contact Form**: /contact\n• **Schedule a Meeting**: /book\n• **GitHub**: github.com/salmanbashir80\n• **LinkedIn**: linkedin.com/in/salmanbashir80\n• **Location**: Pakistan (working with clients across the UK, USA, and globally).";
   }
 
   // 11. Credentials & Proof of Work

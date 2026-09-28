@@ -24,7 +24,7 @@ const PROJECTS: ProjectItem[] = [
     statusColor: "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
     image: "/images/astra/project-luxedge.jpg",
     liveUrl: "https://luxedge.us",
-    githubUrl: "https://github.com/8002salman-ai/luxedge-website",
+    githubUrl: "https://github.com/salmanbashir80/luxedge-website",
     detailUrl: "/projects",
   },
   {
@@ -36,7 +36,7 @@ const PROJECTS: ProjectItem[] = [
     statusColor: "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
     image: "/images/astra/project-salman-os.jpg",
     liveUrl: "https://salman-os.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai",
+    githubUrl: "https://github.com/salmanbashir80",
     detailUrl: "/ai-automation",
   },
   {
@@ -48,7 +48,7 @@ const PROJECTS: ProjectItem[] = [
     statusColor: "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
     image: "/images/astra/yt-ai-automation.jpg",
     liveUrl: "https://youtube-automation-azure.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/youtube-automation",
+    githubUrl: "https://github.com/salmanbashir80/youtube-automation",
     detailUrl: "/projects/youtube-automation",
   },
   {
@@ -60,7 +60,7 @@ const PROJECTS: ProjectItem[] = [
     statusColor: "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
     image: "/images/astra/project-embani-erp.jpg",
     liveUrl: "https://8002-erp.vercel.app",
-    githubUrl: "https://github.com/8002salman-ai/8002-erp",
+    githubUrl: "https://github.com/salmanbashir80/8002-erp",
     detailUrl: "/projects/embani-erp",
   },
 ];

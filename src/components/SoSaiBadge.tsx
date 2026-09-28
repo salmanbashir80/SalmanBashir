@@ -6,7 +6,7 @@ import { useGithubRepos, type GithubRepo } from "@/hooks/useGithubRepos";
 import { cn } from "@/utils/cn";
 
 const AGENT_WORKFLOWS = [
-  { action: "Scanning 8002salman-ai repos for active commit logs & CI builds", target: "GitHub API", status: "SYNCED", latency: "38ms" },
+  { action: "Scanning salmanbashir80 repos for active commit logs & CI builds", target: "GitHub API", status: "SYNCED", latency: "38ms" },
   { action: "Auditing multi-marketplace order sync & fees in luxedge-website", target: "Stock Flow", status: "ONLINE", latency: "74ms" },
   { action: "Inspecting Supabase database connections for salman-os daemon", target: "Postgres", status: "HEALTHY", latency: "52ms" },
   { action: "Verifying Edge proxy routes & asset bundling on Vercel deployment", target: "Edge Network", status: "ACTIVE", latency: "22ms" },
@@ -27,7 +27,7 @@ export function SoSaiBadge({ className }: SoSaiBadgeProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [agentActionMessage, setAgentActionMessage] = useState<string | null>(null);
 
-  // Fetch all real GitHub repositories for 8002salman-ai
+  // Fetch all real GitHub repositories for salmanbashir80
   const { repos: githubRepos } = useGithubRepos();
 
   // Workflow cyclic ticker
@@ -221,7 +221,7 @@ export function SoSaiBadge({ className }: SoSaiBadgeProps) {
                 <div className="flex items-center justify-between pb-1.5 text-[10.5px]">
                   <div className="flex items-center gap-1.5 text-brand-300 font-semibold">
                     <Icon name="github" className="h-3 w-3" />
-                    <span>8002salman-ai REPOSITORIES FLASH</span>
+                    <span>salmanbashir80 REPOSITORIES FLASH</span>
                     <span className="rounded bg-brand-500/20 px-1 text-[9px] text-brand-400">
                       {githubRepos.length || 6} Live Repos
                     </span>
@@ -236,12 +236,12 @@ export function SoSaiBadge({ className }: SoSaiBadgeProps) {
                   {(githubRepos.length > 0
                     ? githubRepos.slice(0, 6)
                     : [
-                        { name: "SalmanBashir", desc: "Consulting portfolio & enterprise architecture system", language: "TypeScript", stars: 18, url: "https://github.com/8002salman-ai/SalmanBashir" },
-                        { name: "luxedge-website", desc: "Modern catalog e-commerce PWA storefront", language: "TypeScript", stars: 12, url: "https://github.com/8002salman-ai/luxedge-website" },
-                        { name: "8002-erp", desc: "Enterprise resource planning & multi-warehouse system", language: "TypeScript", stars: 14, url: "https://github.com/8002salman-ai/8002-erp" },
-                        { name: "Basco-sports", desc: "Activewear brand showcase with checkout pipeline", language: "JavaScript", stars: 8, url: "https://github.com/8002salman-ai/Basco-sports" },
-                        { name: "himalayan-koh", desc: "Natural salt & mineral products e-commerce store", language: "TypeScript", stars: 7, url: "https://github.com/8002salman-ai/himalayan-koh" },
-                        { name: "hot-grill-website", desc: "Restaurant & hospitality digital experience portal", language: "TypeScript", stars: 6, url: "https://github.com/8002salman-ai/hot-grill-website" },
+                        { name: "SalmanBashir", desc: "Consulting portfolio & enterprise architecture system", language: "TypeScript", stars: 18, url: "https://github.com/salmanbashir80/SalmanBashir" },
+                        { name: "luxedge-website", desc: "Modern catalog e-commerce PWA storefront", language: "TypeScript", stars: 12, url: "https://github.com/salmanbashir80/luxedge-website" },
+                        { name: "8002-erp", desc: "Enterprise resource planning & multi-warehouse system", language: "TypeScript", stars: 14, url: "https://github.com/salmanbashir80/8002-erp" },
+                        { name: "Basco-sports", desc: "Activewear brand showcase with checkout pipeline", language: "JavaScript", stars: 8, url: "https://github.com/salmanbashir80/Basco-sports" },
+                        { name: "himalayan-koh", desc: "Natural salt & mineral products e-commerce store", language: "TypeScript", stars: 7, url: "https://github.com/salmanbashir80/himalayan-koh" },
+                        { name: "hot-grill-website", desc: "Restaurant & hospitality digital experience portal", language: "TypeScript", stars: 6, url: "https://github.com/salmanbashir80/hot-grill-website" },
                       ]
                   ).map((repo, idx) => {
                     const isScanning = idx === activeRepoIndex % 6;
@@ -304,7 +304,7 @@ export function SoSaiBadge({ className }: SoSaiBadgeProps) {
                 <div className="flex items-center gap-2 text-zinc-400 truncate">
                   <span className="h-1.5 w-1.5 rounded-full bg-brand-400 animate-ping" />
                   <span className="text-zinc-300">
-                    Agent Stream: <strong className="text-brand-300 font-mono">8002salman-ai</strong>
+                    Agent Stream: <strong className="text-brand-300 font-mono">salmanbashir80</strong>
                   </span>
                   <span className="text-zinc-600">·</span>
                   <span className="text-zinc-500 hidden sm:inline">Telemetry active</span>

@@ -14,7 +14,7 @@ export type GithubRepo = {
   status: string;
 };
 
-const GITHUB_USER = "8002salman-ai";
+const GITHUB_USER = "salmanbashir80";
 const CACHE_KEY = "gh-repos-cache-v4";
 const CACHE_STALE_MS = 6 * 60 * 60 * 1000; // revalidate every 6h to catch any new live launch daily
 

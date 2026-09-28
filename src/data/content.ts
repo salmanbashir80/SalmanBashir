@@ -77,7 +77,7 @@ export const contact = {
   ],
   socials: {
     youtube: "https://www.youtube.com/@TheAIWithSalman",
-    github: "https://github.com/8002salman-ai",
+    github: "https://github.com/salmanbashir80",
     linkedin: "https://www.linkedin.com/in/salmanbashir80",
     x: "",
     instagram: "",
@@ -1907,7 +1907,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "SalmanBashir",
     desc: "Official portfolio and operational showcase website for Salman Bashir — consultant, operator & exporter.",
-    url: "https://github.com/8002salman-ai/SalmanBashir",
+    url: "https://github.com/salmanbashir80/SalmanBashir",
     homepage: "https://salmanbashir.vercel.app",
     language: "TypeScript",
     category: "new",
@@ -1916,7 +1916,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "luxedge-website",
     desc: "Luxury pet essentials e-commerce storefront with responsive catalog, persistent cart, and checkout flow.",
-    url: "https://github.com/8002salman-ai/luxedge-website",
+    url: "https://github.com/salmanbashir80/luxedge-website",
     homepage: "https://luxedge-website.vercel.app",
     language: "TypeScript",
     category: "new",
@@ -1925,7 +1925,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "youtube-automation",
     desc: "Autonomous video production pipeline leveraging LLM scripting, neural voice synthesis, and auto-publishing.",
-    url: "https://github.com/8002salman-ai/youtube-automation",
+    url: "https://github.com/salmanbashir80/youtube-automation",
     homepage: "https://youtube-automation-azure.vercel.app",
     language: "JavaScript",
     category: "new",
@@ -1934,7 +1934,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "8002-erp",
     desc: "Full-scale enterprise ERP for marketplace sellers — multi-warehouse inventory, COGS, fees, and payout reconciliation.",
-    url: "https://github.com/8002salman-ai/8002-erp",
+    url: "https://github.com/salmanbashir80/8002-erp",
     homepage: "https://8002-erp.vercel.app",
     language: "TypeScript",
     category: "new",
@@ -1943,7 +1943,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "Basco-sports",
     desc: "Activewear athletic brand store featuring modern catalog grid, quick-view modals, and checkout pipeline.",
-    url: "https://github.com/8002salman-ai/Basco-sports",
+    url: "https://github.com/salmanbashir80/Basco-sports",
     homepage: "https://basco-sports.vercel.app",
     language: "TypeScript",
     category: "new",
@@ -1952,7 +1952,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "himalayan-koh",
     desc: "Natural Himalayan pink salt and mineral brand storefront with B2B wholesale container export pipeline.",
-    url: "https://github.com/8002salman-ai/himalayan-koh",
+    url: "https://github.com/salmanbashir80/himalayan-koh",
     homepage: "https://preview.himalayankoh.com",
     language: "TypeScript",
     category: "new",
@@ -1961,7 +1961,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "hot-grill-website",
     desc: "Contemporary restaurant and dining portal with interactive digital menus, chef specials, and online reservations.",
-    url: "https://github.com/8002salman-ai/hot-grill-website",
+    url: "https://github.com/salmanbashir80/hot-grill-website",
     homepage: "https://hot-grill-website.vercel.app",
     language: "TypeScript",
     category: "old",
@@ -1970,7 +1970,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "watpro-consultants",
     desc: "Industrial environmental engineering consultancy portal, compliance documentation, and RFP booking platform.",
-    url: "https://github.com/8002salman-ai/watpro-consultants",
+    url: "https://github.com/salmanbashir80/watpro-consultants",
     homepage: "https://watpro-consultants.vercel.app",
     language: "TypeScript",
     category: "new",
@@ -1979,7 +1979,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "spotaware-platform",
     desc: "Real-time spatial awareness, distributed facilities monitoring, and anomaly detection operations hub.",
-    url: "https://github.com/8002salman-ai/spotaware-platform",
+    url: "https://github.com/salmanbashir80/spotaware-platform",
     homepage: "https://spotaware-platform.vercel.app",
     language: "TypeScript",
     category: "old",
@@ -1988,7 +1988,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "i-864-affidavit-support-calculator",
     desc: "Automated legal compliance calculator computing US federal poverty guidelines and sponsor income sufficiency.",
-    url: "https://github.com/8002salman-ai/i-864-affidavit-support-calculator",
+    url: "https://github.com/salmanbashir80/i-864-affidavit-support-calculator",
     homepage: "https://i-864-affidavit-support-calculator.vercel.app",
     language: "TypeScript",
     category: "old",
@@ -1997,7 +1997,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "commerceos",
     desc: "Multi-channel e-commerce operations platform connecting orders, inventory routing, and payout analytics.",
-    url: "https://github.com/8002salman-ai/commerceos",
+    url: "https://github.com/salmanbashir80/commerceos",
     homepage: "https://commerceos.vercel.app",
     language: "TypeScript",
     category: "old",
@@ -2006,7 +2006,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "8002PDF",
     desc: "High-performance client-side PDF document manipulation, conversion, page merging, and optimization tool.",
-    url: "https://github.com/8002salman-ai/8002PDF",
+    url: "https://github.com/salmanbashir80/8002PDF",
     homepage: "https://8002pdf.vercel.app",
     language: "TypeScript",
     category: "old",
@@ -2015,7 +2015,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "shootergame",
     desc: "Interactive 3D browser-based action arcade game built with WebGL and C#.",
-    url: "https://github.com/8002salman-ai/shootergame",
+    url: "https://github.com/salmanbashir80/shootergame",
     homepage: "https://shootergame.vercel.app",
     language: "C#",
     category: "new",
@@ -2024,7 +2024,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "screenshot-to-code",
     desc: "AI development workspace converting UI screenshots and design mockups into functional frontend code.",
-    url: "https://github.com/8002salman-ai/screenshot-to-code",
+    url: "https://github.com/salmanbashir80/screenshot-to-code",
     language: "Python",
     category: "new",
     status: "Open Source",
@@ -2032,7 +2032,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "EbayErp",
     desc: "Automated eBay multi-account seller operations, order tracking, fee calculation, and inventory sync engine.",
-    url: "https://github.com/8002salman-ai/EbayErp",
+    url: "https://github.com/salmanbashir80/EbayErp",
     language: "TypeScript",
     category: "new",
     status: "Open Source",
@@ -2040,7 +2040,7 @@ export const githubRepos: PortfolioRepo[] = [
   {
     name: "SalmanMacCleaner",
     desc: "macOS system maintenance and memory cleanup utility for developers and power users.",
-    url: "https://github.com/8002salman-ai/SalmanMacCleaner",
+    url: "https://github.com/salmanbashir80/SalmanMacCleaner",
     language: "Shell",
     category: "new",
     status: "Open Source",

@@ -338,7 +338,7 @@ export function GithubHeroStrip({ className }: { className?: string }) {
           Displaying all <strong className="text-white">{filteredRepos.length}</strong> of {repos.length} repositories
         </span>
         <span className="font-mono text-[10.5px] text-zinc-500">
-          github.com/8002salman-ai
+          github.com/salmanbashir80
         </span>
       </div>
     </div>

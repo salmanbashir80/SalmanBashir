@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const CONTENT_FILE = path.resolve(__dirname, '../src/data/content.ts');
-const GITHUB_USER = '8002salman-ai';
+const GITHUB_USER = 'salmanbashir80';
 
 async function checkLiveUrl(url) {
   try {
