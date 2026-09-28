@@ -1,0 +1,103 @@
+name: Link Checker
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-checker
+  cancel-in-progress: false
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run link checker
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e
+          node scripts/check-links.mjs --json link-report.json
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0 # Always continue so the issue step can run
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: link-report.json
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Open or update issue on broken links
+        if: steps.check.outputs.exit_code == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="🔗 Broken external links detected (weekly check)"
+          BODY_FILE=.link-issue-body.md
+
+          {
+            echo "## Broken external links found by the weekly link checker"
+            echo ""
+            echo "**Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "**Date:** $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo ""
+            echo "The following URLs returned \`404/410\` (or GitHub API confirmed they no longer exist)."
+            echo "Bot-blocked URLs (LinkedIn, Fiverr, etc.) are treated as OK and not listed here."
+            echo ""
+            echo "| URL | Source file | Reason |"
+            echo "|---|---|---|"
+            node -e '
+              const report = require("./link-report.json");
+              for (const b of report.broken) {
+                const url = String(b.url).replace(/\|/g, "\\|");
+                const src = String(b.source || "?").replace(/\|/g, "\\|");
+                const reason = String(b.reason || "404/410").replace(/\|/g, "\\|");
+                console.log(`| ${url} | \`${src}\` | ${reason} |`);
+              }
+            '
+            echo ""
+            echo "_Fix each link in the listed source file, commit, and push. This issue closes automatically on the next green run._"
+          } > "$BODY_FILE"
+
+          # Find an existing open issue from this workflow
+          ISSUE_NUMBER=$(gh issue list --search "in:title \"$TITLE\"" --state open --json number --jq '.[0].number // ""' 2>/dev/null || echo "")
+
+          if [ -n "$ISSUE_NUMBER" ]; then
+            gh issue edit "$ISSUE_NUMBER" --body-file "$BODY_FILE" >/dev/null
+            echo "Updated existing issue #$ISSUE_NUMBER"
+          else
+            gh issue create --title "$TITLE" --body-file "$BODY_FILE" >/dev/null
+            echo "Created new issue"
+          fi
+
+      - name: Auto-close issue when all links are healthy
+        if: steps.check.outputs.exit_code == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="🔗 Broken external links detected (weekly check)"
+          ISSUE_NUMBER=$(gh issue list --search "in:title \"$TITLE\"" --state open --json number --jq '.[0].number // ""' 2>/dev/null || echo "")
+          if [ -n "$ISSUE_NUMBER" ]; then
+            gh issue close "$ISSUE_NUMBER" --comment "All external links are healthy again ✅ (verified by [run ${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}))" >/dev/null
+            echo "Closed issue #$ISSUE_NUMBER"
+          else
+            echo "No open link-checker issue — nothing to close"
+          fi
